@@ -1,0 +1,61 @@
+{
+    "name": "QnABot1973",
+    "description": "",
+    "services": [
+        {
+            "type": "abs",
+            "tenantId": "4fb9bbc0-2c56-4a08-8dd1-602cdc8dca12",
+            "subscriptionId": "27121d35-1368-4f98-bf1b-f33f472c2209",
+            "resourceGroup": "TeamsBotTest",
+            "serviceName": "QnABot1973",
+            "name": "QnABot1973",
+            "id": "1",
+            "appId": "a5c2bfe4-d7f8-468d-8b06-40d8866fa889"
+        },
+        {
+            "type": "blob",
+            "connectionString": "Ttu6GroVyO4/ESXGO9rYoQ==!TEcCuXVn1Y/MhOTvkoXRXDBS2cESwY2f/kfHrhDEc4p/r7XV3/Ut0FaVZ3FqNSOlp56qIcWvwFWyqTj4MP+0sCc3vxwZT26WjToHI6AUz8jEdKa8mRb9Fq7GA7BiidTWL6vjbrNIaMgSs66muEXjpSzGEy1KUPsyOGtzL85gsKkcLgmk0A780FftqW642dFjeM0Nmfptx8pROX4jPAPRvw==",
+            "tenantId": "4fb9bbc0-2c56-4a08-8dd1-602cdc8dca12",
+            "subscriptionId": "27121d35-1368-4f98-bf1b-f33f472c2209",
+            "resourceGroup": "TeamsBotTest",
+            "serviceName": "qnabot1973bc89",
+            "id": "2"
+        },
+        {
+            "type": "endpoint",
+            "appId": "",
+            "appPassword": "",
+            "endpoint": "http://localhost:3978/api/messages",
+            "name": "development",
+            "id": "3"
+        },
+        {
+            "type": "endpoint",
+            "appId": "a5c2bfe4-d7f8-468d-8b06-40d8866fa889",
+            "appPassword": "IY2twmHyrc9dLHLoXj26GA==!aVDIDd9KcOgKrE4HsAYfLSQDwnBKKWrrZtKzcrvCgRE=",
+            "endpoint": "https://qnabot1973.azurewebsites.net/api/messages",
+            "name": "production",
+            "id": "4"
+        },
+        {
+            "type": "luis",
+            "appId": "5d2aabcc-4500-405d-a927-d48144687a92",
+            "authoringKey": "wyK9TeHGg+WF8p3p/8tS8w==!VDAb9hWSDoBMaForgBZc1NS02B/Cnsembg5IQ13qGMMuLx2n0jI96YTgkXwqUqZg",
+            "version": "0.1",
+            "region": "australiaeast",
+            "name": "BasicBotLuisApplication",
+            "id": "5"
+        },
+        {
+            "type": "qna",
+            "name": "EISITSMKB",
+            "kbId": "d64473af-a9d7-4f1a-a64c-182e9cb4902c",
+            "subscriptionKey": "GVtKKhiWZieuTvqvTiAsiA==!J6QeRi2OSRLDUCsVynvYIgnFh/fBioDe0NADWAJ83/HqSqYEbnxz1MFCXGdGI4ze",
+            "endpointKey": "0LFAbxp9kM2nvuhAle42WQ==!C4oylXQNpmRgcJ/vWJ5tXfbbx2PdssA1MOHNuM/kurx1HCw4aZVqziXckBzuPFh0",
+            "hostname": "https://eisitsmqnamaker.azurewebsites.net/qnamaker",
+            "id": "19"
+        }
+    ],
+    "padlock": "hGby1A7AZNOdYWn/ABAQmw==!04FpljgRNnAmM66/+5k7yl2IH9QTHN2VRcg7ITnp5Q7Ve1PaSlgNn03K31Mu+rBZ",
+    "version": "2.0"
+}
